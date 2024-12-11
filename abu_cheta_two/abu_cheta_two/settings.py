@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     'https://vote.foxminded.space',
-    'http://localhost'
+    'http://localhost:3000'
 ]
 
 # Application definition
