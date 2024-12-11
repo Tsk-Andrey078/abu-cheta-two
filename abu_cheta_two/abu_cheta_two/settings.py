@@ -46,7 +46,6 @@ INSTALLED_APPS = [
 CORS_ALLOWED_ORIGINS = [
     'https://vote.foxminded.space',
     'http://localhost:3000',
-    'localhost:3000',
     '185.44.87.199',
     '185.44.87.199:3000'
 ]
@@ -59,7 +58,7 @@ CORS_ALLOW_METHODS = [
     'PATCH',
     'POST',
     'PUT',
-# ]
+]
 
 # CORS_ALLOW_HEADERS = [
 #     'content-type',
