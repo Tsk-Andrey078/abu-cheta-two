@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     'https://vote.abu.edu.kz',
-    'http://localhost:3000/,
+    'http://localhost:3000',
     'http://192.168.8.5:3000'
 ]
 
