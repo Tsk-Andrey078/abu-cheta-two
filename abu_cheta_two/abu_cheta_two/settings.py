@@ -60,23 +60,23 @@ CORS_ALLOW_METHODS = [
     'PUT',
 ]
 
-# CORS_ALLOW_HEADERS = [
-#     'content-type',
-#     'authorization',
-#     'accept',
-#     'accept-encoding',
-#     'accept-language',
-#     'dnt',
-#     'origin',
-#     'referer',
-#     'sec-ch-ua',
-#     'sec-ch-ua-mobile',
-#     'sec-ch-ua-platform',
-#     'sec-fetch-dest',
-#     'sec-fetch-mode',
-#     'sec-fetch-site',
-#     'user-agent',
-# ]
+CORS_ALLOW_HEADERS = [
+    'content-type',
+    'authorization',
+    'accept',
+    'accept-encoding',
+    'accept-language',
+    'dnt',
+    'origin',
+    'referer',
+    'sec-ch-ua',
+    'sec-ch-ua-mobile',
+    'sec-ch-ua-platform',
+    'sec-fetch-dest',
+    'sec-fetch-mode',
+    'sec-fetch-site',
+    'user-agent',
+]
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_AUTHENTICATION_CLASSES': [
