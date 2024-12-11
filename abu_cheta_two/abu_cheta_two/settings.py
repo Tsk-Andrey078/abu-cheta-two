@@ -43,10 +43,11 @@ INSTALLED_APPS = [
      'corsheaders'
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'https://vote.foxminded.space',
-    'http://192.168.8.5:3000',
-]
+CORS_ORIGIN_ALLOW_ALL = False
+
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000',
+)
 
 # Application definition
 CORS_ALLOW_METHODS = [
