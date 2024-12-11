@@ -43,12 +43,12 @@ INSTALLED_APPS = [
      'corsheaders'
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 
-CORS_ALLOWED_ORIGINS = [
-    'https://vote.foxminded.space,
-    'http://localhost:3000',
-    'http://192.168.8.5:3000,
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'https://vote.foxminded.space,
+# ]
 
 CORS_ALLOW_HEADERS = default_headers + (
     'Access-Control-Allow-Origin',
