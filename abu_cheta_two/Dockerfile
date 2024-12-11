@@ -20,4 +20,4 @@ RUN pip install gunicorn
 EXPOSE 8000
 
 # Запускаем Gunicorn для вашего проекта
-CMD ["gunicorn", "abu_cheta.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "abu_cheta_two.wsgi:application", "--bind", "0.0.0.0:8000"]
