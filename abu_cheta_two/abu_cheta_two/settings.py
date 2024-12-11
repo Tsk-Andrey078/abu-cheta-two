@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$vu=ud98kp@v68agll^7f%hmj6g770(8swdsxpqfj6d2*2c*!o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'voteback.foxminded.space', '185.44.87.199']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'voteback.foxminded.space']
 
 
 # Application definition
@@ -45,9 +45,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     'https://vote.foxminded.space',
-    'http://localhost:3000',
-    'http://185.44.87.199',
-    'http://185.44.87.199:3000'
+    'http://192.168.8.5:3000',
 ]
 
 # Application definition
