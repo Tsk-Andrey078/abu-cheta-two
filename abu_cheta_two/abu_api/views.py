@@ -10,11 +10,9 @@ from rest_framework.permissions import IsAuthenticated
 class ParticipantsViewSet(viewsets.ModelViewSet):
     queryset = Participant.objects.all()
     serializer_class = ParticipantSerializer
-    permission_classes = [IsAuthenticated]
     lookup_field = "id"
 
 class ColDebViewSet(viewsets.ModelViewSet):
     queryset = ColichestvoDebilov.objects.all()
     serializer_class = ColichestvoDebilovSerializer
-    permission_classes = [IsAuthenticated]
     lookup_field = "id"
