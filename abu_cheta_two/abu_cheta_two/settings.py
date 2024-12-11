@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'voteback.foxminded.space']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+     'django.contrib.admin',
      'django.contrib.auth',
      'django.contrib.contenttypes',
      'django.contrib.sessions',
@@ -45,7 +45,8 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     'https://vote.foxminded.space',
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'localhost:3000'
 ]
 
 # Application definition
@@ -56,25 +57,25 @@ CORS_ALLOW_METHODS = [
     'PATCH',
     'POST',
     'PUT',
-]
+# ]
 
-CORS_ALLOW_HEADERS = [
-    'content-type',
-    'authorization',
-    'accept',
-    'accept-encoding',
-    'accept-language',
-    'dnt',
-    'origin',
-    'referer',
-    'sec-ch-ua',
-    'sec-ch-ua-mobile',
-    'sec-ch-ua-platform',
-    'sec-fetch-dest',
-    'sec-fetch-mode',
-    'sec-fetch-site',
-    'user-agent',
-]
+# CORS_ALLOW_HEADERS = [
+#     'content-type',
+#     'authorization',
+#     'accept',
+#     'accept-encoding',
+#     'accept-language',
+#     'dnt',
+#     'origin',
+#     'referer',
+#     'sec-ch-ua',
+#     'sec-ch-ua-mobile',
+#     'sec-ch-ua-platform',
+#     'sec-fetch-dest',
+#     'sec-fetch-mode',
+#     'sec-fetch-site',
+#     'user-agent',
+# ]
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_AUTHENTICATION_CLASSES': [
