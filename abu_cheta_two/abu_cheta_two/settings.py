@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$vu=ud98kp@v68agll^7f%hmj6g770(8swdsxpqfj6d2*2c*!o
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'vote.back.abu.edu.kz']
-
+CSRF_TRUSTED_ORIGINS = ['https://vote.back.abu.edu.kz']
 
 # Application definition
 
